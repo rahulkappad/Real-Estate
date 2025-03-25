@@ -4,16 +4,16 @@ import { assets } from '../assets/assets'
 const Navbar = () => {
   const [showMobileMenu,setMobileMenu] = useState(false) 
 
-useEffect(()=>{
-    if (setMobileMenu) {
-      document.body.style.overflow='hidden'
-    }else{
-      document.body.style.overflow='auto'
-    }
-    return ()=>{
-      document.body.style.overflow='auto'
-    };
-},[showMobileMenu])  
+// useEffect(()=>{
+//     if (setMobileMenu) {
+//       document.body.style.overflow='hidden'
+//     }else{
+//       document.body.style.overflow='auto'
+//     }
+//     return ()=>{
+//       document.body.style.overflow='auto'
+//     };
+// },[showMobileMenu])  
 
   return (
     <div className='absolute top-0 left-0 w-full z-10'>
