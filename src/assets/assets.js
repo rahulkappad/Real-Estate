@@ -61,7 +61,7 @@ export const projectData = [
 export const testimonialsData =[
     {
         name:"Mohanlal",
-        title:"Marketing manager",
+        title:"Actor With Dancer",
         Image:profile1,
         alt:"Porait of Mohanlal",
         rating: 3,
@@ -69,7 +69,7 @@ export const testimonialsData =[
     },
     {
         name:"Mammootty",
-        title:"Marketing manager",
+        title:"Actor No Dance",
         Image:profile2,
         alt:"Porait of Mammootty",
         rating:5,
@@ -77,7 +77,7 @@ export const testimonialsData =[
     },
     {
         name:"Jagadeesh",
-        title:"Marketing Executive",
+        title:"Comedy now Serious",
         Image:profile3,
         alt:"Porait of Jagadeesh",
         rating:3,
