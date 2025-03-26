@@ -8,7 +8,7 @@ const Navbar = () => {
 //     if (setMobileMenu) {
 //       document.body.style.overflow='hidden'
 //     }else{
-//       document.body.style.overflow='auto'
+//       document.body.style.overflow='autp'
 //     }
 //     return ()=>{
 //       document.body.style.overflow='auto'
@@ -18,14 +18,14 @@ const Navbar = () => {
   return (
     <div className='absolute top-0 left-0 w-full z-10'>
       <div className='container mx-auto flex justify-between items-center py-4 px-8 md:px-20 lg:px-32 bg-transparent'>
-        <img src={assets.logo2} className='w-20' alt="" />
+        <img cla src={assets.logo2} className='w-20 ' alt="" />
         <ul className='hidden md:flex gap-7 text-white'>
-          <a href="#header" className='cursor-pointer hover:text-gray-400'>Home</a>
+          <a href="" className='cursor-pointer hover:text-gray-400'>Home</a>
           <a href="#about" className='cursor-pointer hover:text-gray-400'>About</a>
           <a href="#projects" className='cursor-pointer hover:text-gray-400'>Projects</a>
           <a href="#testimonials" className='cursor-pointer hover:text-gray-400'>Testimonials</a>
         </ul>
-        <button className='hidden md:block bg-white px-8 py-2 rounded-full'>
+        <button  className='hidden md:block bg-white px-8 py-2 rounded-full' >
           Sign Up
         </button>
         <img onClick={()=> setMobileMenu(true)} src={assets.menu_icon} className='md:hidden w-7 cursor-pointer' alt="" />
@@ -36,7 +36,7 @@ const Navbar = () => {
           <img onClick={()=> setMobileMenu(false)}  src={assets.close_icon} className='w-8' alt="" />
         </div>
         <ul className='flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium'>
-          <a onClick={()=> setMobileMenu(false)} href="#header" className='px-4 py-2 rounded-full inline-block'>Home</a>
+          <a onClick={()=> setMobileMenu(false)} href="" className='px-4 py-2 rounded-full inline-block'>Home</a>
           <a onClick={()=> setMobileMenu(false)} href="#about" className='px-4 py-2 rounded-full inline-block'>About</a>
           <a onClick={()=> setMobileMenu(false)} href="#projects" className='px-4 py-2 rounded-full inline-block'>Projects</a>
           <a onClick={()=> setMobileMenu(false)} href="#testimonials" className='px-4 py-2 rounded-full inline-block'>Testimonials</a>

@@ -1,0 +1,7 @@
+npm create vite@latest
+npm install
+npm run dev
+google font
+tailwindcss
+npm i react-toastify
+npm install framer-motion
